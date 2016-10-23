@@ -1,7 +1,7 @@
 {
   "name": "loopback-component-ping",
   "version": "1.0.0",
-  "description": "Retrieving the internal state of the LoopBack API Node process.",
+  "description": "Retrieve the internal state of the LoopBack API Node process.",
   "homepage": "https://github.com/fullcube/loopback-component-ping",
   "repository": "fullcube/loopback-component-ping",
   "license": "MIT",
@@ -9,6 +9,7 @@
     "name": "Bram Borggreve",
     "email": "borggreve@gmail.com"
   },
+  "main": "lib/index.js",
   "scripts": {
     "dev": "DEBUG=*:ping NODE_ENV=development nodemon test/test-server/server/server.js --watch ./lib --watch ./test/test-server --ignore db.json --ext js,json",
     "lint": "eslint .",
