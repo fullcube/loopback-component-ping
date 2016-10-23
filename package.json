@@ -1,6 +1,6 @@
 {
   "name": "loopback-component-ping",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Retrieve the internal state of the LoopBack API Node process.",
   "homepage": "https://github.com/fullcube/loopback-component-ping",
   "repository": "fullcube/loopback-component-ping",
