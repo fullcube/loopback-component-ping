@@ -1,0 +1,44 @@
+{
+  "name": "loopback-component-ping",
+  "version": "1.0.0",
+  "description": "Retrieving the internal state of the LoopBack API Node process.",
+  "homepage": "https://github.com/fullcube/loopback-component-ping",
+  "repository": "fullcube/loopback-component-ping",
+  "license": "MIT",
+  "author": {
+    "name": "Bram Borggreve",
+    "email": "borggreve@gmail.com"
+  },
+  "scripts": {
+    "dev": "DEBUG=*:ping NODE_ENV=development nodemon test/test-server/server/server.js --watch ./lib --watch ./test/test-server --ignore db.json --ext js,json",
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "NODE_ENV=test nyc --reporter=lcov --reporter=text --reporter=text-summary mocha test/*test.js",
+    "test:watch": "npm run test -- -w",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "express-ping": "^1.2.0",
+    "lodash": "^4.16.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "coveralls": "^2.11.9",
+    "eslint": "^2.13.1",
+    "eslint-config-fullcube": "1.0.0",
+    "loopback": "^2.22.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^2.5.0",
+    "loopback-datasource-juggler": "^2.39.0",
+    "mocha": "^2.5.3",
+    "nodemon": "^1.9.2",
+    "nyc": "^7.0.0",
+    "serve-favicon": "^2.0.1",
+    "sinon": "^1.17.4",
+    "sinon-as-promised": "^3.0.1",
+    "sinon-chai": "^2.8.0"
+  }
+}

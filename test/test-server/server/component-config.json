@@ -1,0 +1,22 @@
+{
+  "loopback-component-explorer": {
+    "mountPath": "/explorer"
+  },
+  "../../../lib": {
+    "acls": [{
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "ALLOW"
+    }],
+    "modelName": "Ping",
+    "parts": {
+      "application": true,
+      "environment": true,
+      "resources": true,
+      "system": true,
+      "timestamp": true,
+      "uptime": true
+    }
+  }
+}

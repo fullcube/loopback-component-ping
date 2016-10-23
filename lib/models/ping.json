@@ -1,0 +1,22 @@
+{
+  "name": "Ping",
+  "plural": "Ping",
+  "base": "Model",
+  "description": "Ping the API to retrieve its internal state",
+  "methods": {
+    "ping": {
+      "isStatic": true,
+      "accepts": [],
+      "returns": {
+        "arg": "result",
+        "type": "Object",
+        "root": true
+      },
+      "description": "Ping the API to retrieve its internal state",
+      "http": {
+        "path": "/",
+        "verb": "get"
+      }
+    }
+  }
+}
