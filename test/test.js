@@ -3,8 +3,6 @@
 const path = require('path')
 const chai = require('chai')
 
-chai.use(require('sinon-chai'))
-
 const expect = chai.expect
 
 const TEST_APP = path.join(__dirname, 'test-server')
