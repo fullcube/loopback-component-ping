@@ -1,14 +1,9 @@
-/* eslint filenames/match-regex: 0 */
 'use strict'
 
-const Promise = require('bluebird')
 const path = require('path')
 const chai = require('chai')
-// const sinon = require('sinon')
 
 chai.use(require('sinon-chai'))
-
-require('sinon-as-promised')(Promise)
 
 const expect = chai.expect
 

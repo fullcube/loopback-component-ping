@@ -19,27 +19,28 @@
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
-    "bluebird": "^3.4.6",
-    "express-ping": "^1.2.0",
-    "lodash": "^4.16.4"
+    "bluebird": "^3.5.0",
+    "express-ping": "^1.4.0",
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "compression": "^1.0.3",
-    "cors": "^2.5.2",
-    "coveralls": "^2.11.9",
-    "eslint": "^2.13.1",
-    "eslint-config-fullcube": "1.0.0",
-    "loopback": "^2.22.0",
-    "loopback-boot": "^2.6.5",
-    "loopback-component-explorer": "^2.5.0",
-    "loopback-datasource-juggler": "^2.39.0",
-    "mocha": "^2.5.3",
-    "nodemon": "^1.9.2",
-    "nyc": "^7.0.0",
-    "serve-favicon": "^2.0.1",
-    "sinon": "^1.17.4",
-    "sinon-as-promised": "^3.0.1",
-    "sinon-chai": "^2.8.0"
+    "compression": "^1.6.2",
+    "cors": "^2.8.3",
+    "coveralls": "^2.13.0",
+    "eslint": "^3.19.0",
+    "eslint-config-fullcube": "^1.0.46",
+    "loopback": "^3.6.0",
+    "loopback-boot": "^2.24.0",
+    "loopback-component-explorer": "^4.2.0",
+    "loopback-datasource-juggler": "^3.5.0",
+    "mocha": "^3.3.0",
+    "nodemon": "^1.11.0",
+    "nyc": "^10.2.0",
+    "serve-favicon": "^2.4.2",
+    "sinon": "^2.1.0",
+    "sinon-as-promised": "^4.0.3",
+    "sinon-chai": "^2.9.0",
+    "strong-error-handler": "^2.1.0"
   }
 }

@@ -5,7 +5,6 @@
   "description": "Ping the API to retrieve its internal state",
   "methods": {
     "ping": {
-      "isStatic": true,
       "accepts": [],
       "returns": {
         "arg": "result",
