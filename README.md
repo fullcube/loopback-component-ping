@@ -1,5 +1,7 @@
 # loopback-component-ping
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/fullcube/loopback-component-ping.svg)](https://greenkeeper.io/)
+
 Component for [LoopBack](https://loopback.io) that adds a model for retrieving the internal state of the Node process.
 
 It is a wrapper around the [express-ping](https://github.com/palmerabollo/express-ping/) package.
