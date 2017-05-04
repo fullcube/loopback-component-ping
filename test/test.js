@@ -3,11 +3,11 @@
 const path = require('path')
 const chai = require('chai')
 
-const expect = chai.expect
+const { expect } = chai
 
 const TEST_APP = path.join(__dirname, 'test-server')
 const app = require(path.join(TEST_APP, 'server/server.js'))
-const Ping = app.models.Ping
+const Ping = app.loopback.getModel('Ping')
 
 describe('Component Initialization', function() {
 

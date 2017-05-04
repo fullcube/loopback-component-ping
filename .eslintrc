@@ -1,4 +1,7 @@
 {
   "extends": "fullcube",
-  "root": true
+  "root": true,
+  "rules": {
+    "no-process-env": 0
+  }
 }
