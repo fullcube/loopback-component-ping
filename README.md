@@ -1,5 +1,7 @@
 # loopback-component-ping
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/fullcube/loopback-ds-computed-mixin.svg)](https://greenkeeper.io/)
+
 [![CircleCI](https://circleci.com/gh/fullcube/loopback-component-ping.svg?style=svg)](https://circleci.com/gh/fullcube/loopback-component-ping) [![Coverage Status](https://coveralls.io/repos/github/fullcube/loopback-component-ping/badge.svg)](https://coveralls.io/github/fullcube/loopback-component-ping) [![Dependencies](http://img.shields.io/david/fullcube/loopback-component-ping.svg?style=flat)](https://david-dm.org/fullcube/loopback-component-ping) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 Component for [LoopBack](https://loopback.io) that adds a model for retrieving the internal state of the Node process.
