@@ -1,6 +1,6 @@
 {
   "name": "loopback-component-ping",
-  "version": "2.0.0",
+  "version": "0.0.0-development",
   "description": "Retrieve the internal state of the LoopBack API Node process.",
   "homepage": "https://github.com/fullcube/loopback-component-ping",
   "repository": "fullcube/loopback-component-ping",
@@ -16,7 +16,8 @@
     "pretest": "npm run lint",
     "test": "NODE_ENV=test nyc --reporter=lcov --reporter=text --reporter=text-summary mocha test/*test.js",
     "test:watch": "npm run test -- -w",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "dependencies": {
     "bluebird": "^3.5.0",
@@ -26,6 +27,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "compression": "^1.6.2",
+    "condition-circle": "^1.5.0",
     "cors": "^2.8.3",
     "coveralls": "^2.13.0",
     "eslint": "^3.19.0",
@@ -37,7 +39,11 @@
     "mocha": "^3.3.0",
     "nodemon": "^1.11.0",
     "nyc": "^10.2.0",
+    "semantic-release": "^6.3.2",
     "serve-favicon": "^2.4.2",
     "strong-error-handler": "^2.1.0"
+  },
+  "release": {
+    "verifyConditions": "condition-circle"
   }
 }
