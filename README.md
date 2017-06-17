@@ -21,6 +21,7 @@ The configuration object accepts the following parameters:
 - `acls` (array) (optional) allows you to specify LoopBack ACL definitions that will be applied to the Ping model. (Default: no ACL)
 - `modelName` (string) (optional) allows to specify the name of the API endpoint that's used. (Default: 'Ping'),
 - `parts` (object) (optional) allows you to filter out parts of the output by setting the value to false. (Default: show all parts)
+- `rest` (boolean) (optional) set the value to false to disable the REST endpoint. (Default: enable REST endpoint)
 
 ```json
 {
@@ -39,7 +40,8 @@ The configuration object accepts the following parameters:
       "principalType": "ROLE",
       "principalId": "$unauthenticated",
       "permission": "ALLOW"
-    }]
+    }],
+    "rest": true
   }
 }
 ```
