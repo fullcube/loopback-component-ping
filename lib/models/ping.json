@@ -5,7 +5,7 @@
   "description": "Ping the API to retrieve its internal state",
   "methods": {
     "ping": {
-      "accepts": [],
+      "accepts": [{"arg": "parts", "type": "Object"}],
       "returns": {
         "arg": "result",
         "type": "Object",

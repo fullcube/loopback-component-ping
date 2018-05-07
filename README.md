@@ -6,7 +6,7 @@
 
 Component for [LoopBack](https://loopback.io) that adds a model for retrieving the internal state of the Node process.
 
-It is a wrapper around the [express-ping](https://github.com/palmerabollo/express-ping/) package.
+It is a wrapper around the [express-ping-win-posix](https://github.com/dreamdevil00/express-ping/) package.
 
 # Installation
 
